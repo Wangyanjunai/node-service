@@ -1,5 +1,6 @@
-const http = require('http');
-const url = require('url');
+const http = require('http')
+const url = require('url')
+const path = require('path')
 
 const server = http.createServer(function (req, res) {
     const pathname = url.parse(req.url).pathname;
